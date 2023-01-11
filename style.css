@@ -40,6 +40,26 @@ footer p {
   font-size: 16px;
 }
 
-header p {
+/*header p {
   font-style: italic;
+}
+*/
+#author {
+  font-style: italic;
+}
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* ul {
+  list-style: none;
+} */
+
+.related-order {
+  list-style: none;
 }
