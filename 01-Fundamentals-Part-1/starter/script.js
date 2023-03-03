@@ -67,19 +67,47 @@ const age = 15;
 // console.log(hasgoodvision || hasdriverlivense);
 // console.log(!hasdriverlivense);
 
-const DolphinsAVG = (97 + 112 + 101) / 3;
-const KoalasAVG = (109 + 95 + 123) / 3;
+// const DolphinsAVG = (97 + 112 + 101) / 3;
+// const KoalasAVG = (109 + 95 + 123) / 3;
 
-if (DolphinsAVG > KoalasAVG && DolphinsAVG > 100) {
-  console.log("Dolphins Wins");
-} else if (KoalasAVG > DolphinsAVG && KoalasAVG > 100) {
-  console.log("Koalas Wins");
-} else if (
-  KoalasAVG === DolphinsAVG &&
-  DolphinsAVG >= 100 &&
-  KoalasAVG >= 100
-) {
-  console.log("ITS DRAW");
-} else {
-  console.log("NO ONE WINS");
+// if (DolphinsAVG > KoalasAVG && DolphinsAVG > 100) {
+//   console.log("Dolphins Wins");
+// } else if (KoalasAVG > DolphinsAVG && KoalasAVG > 100) {
+//   console.log("Koalas Wins");
+// } else if (
+//   KoalasAVG === DolphinsAVG &&
+//   DolphinsAVG >= 100 &&
+//   KoalasAVG >= 100
+// ) {
+//   console.log("ITS DRAW");
+// } else {
+//   console.log("NO ONE WINS");
+// }
+
+// const day = "tuesday";
+// switch (day) {
+//   case "monday":
+//     console.log("NOO");
+//     break;
+
+//   case "tuesday":
+//     console.log("AGAIN NO");
+//     break;
+
+//   case "wednesday":
+//   case "tuesday":
+//     console.log("AGAIN NO AND NO");
+//     break;
+//   default:
+//     console.log("NOT A DAY");
+// }
+
+const day = "tuesday";
+
+if (day === "monday") {
+  console.log("ITS MONDAY");
+} else if (day === "tuesday") {
+  console.log("ITS TUESDAY");
+} else if (day === "wednesday" && "tuesday") {
+  console.log("ITS WEDTUE");
 }
