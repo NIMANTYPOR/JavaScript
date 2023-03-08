@@ -102,12 +102,12 @@ const age = 15;
 //     console.log("NOT A DAY");
 // }
 
-const day = "tuesday";
+// const day = "tuesday";
 
-if (day === "monday") {
-  console.log("ITS MONDAY");
-} else if (day === "tuesday") {
-  console.log("ITS TUESDAY");
-} else if (day === "wednesday" && "tuesday") {
-  console.log("ITS WEDTUE");
-}
+// if (day === "monday") {
+//   console.log("ITS MONDAY");
+// } else if (day === "tuesday") {
+//   console.log("ITS TUESDAY");
+// } else if (day === "wednesday" && "tuesday") {
+//   console.log("ITS WEDTUE");
+// }
